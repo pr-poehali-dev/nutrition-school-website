@@ -138,12 +138,12 @@ export default function Index() {
         className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md"
         style={{ background: "rgba(250, 247, 240, 0.92)", borderBottom: "1px solid hsl(42 20% 88%)" }}
       >
-        <div className="container mx-auto px-6 flex items-center justify-between h-16">
+        <div className="container mx-auto px-6 flex items-center justify-between h-24">
           <button onClick={() => scrollTo("home")} className="flex items-center">
             <img
               src="https://cdn.poehali.dev/projects/44b8fa57-6fcc-4d74-9b5b-10922da375f8/bucket/711c8472-4015-4ad1-80ea-8212d61a59bc.png"
               alt="Питайся правильно"
-              className="h-16 w-auto object-contain"
+              className="h-24 w-auto object-contain"
               style={{ mixBlendMode: "multiply" }}
             />
           </button>
