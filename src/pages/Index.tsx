@@ -212,7 +212,7 @@ export default function Index() {
                 <em style={{ color: "hsl(145 40% 28%)" }}>правильно</em>
                 <br />
                 <span className="text-4xl md:text-5xl lg:text-6xl font-light">
-                  — живи полнее
+                  — живи со вкусом
                 </span>
               </h1>
               <p className="font-body text-lg leading-relaxed mb-8 max-w-lg" style={{ color: "hsl(150 15% 38%)" }}>
