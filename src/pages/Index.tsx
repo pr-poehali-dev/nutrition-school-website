@@ -139,11 +139,12 @@ export default function Index() {
         style={{ background: "rgba(250, 247, 240, 0.92)", borderBottom: "1px solid hsl(42 20% 88%)" }}
       >
         <div className="container mx-auto px-6 flex items-center justify-between h-16">
-          <button onClick={() => scrollTo("home")} className="flex items-center gap-2">
-            <span className="text-2xl">🌿</span>
-            <span className="font-display text-xl font-semibold" style={{ color: "hsl(145 40% 28%)" }}>
-              Питайся правильно
-            </span>
+          <button onClick={() => scrollTo("home")} className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/44b8fa57-6fcc-4d74-9b5b-10922da375f8/bucket/711c8472-4015-4ad1-80ea-8212d61a59bc.png"
+              alt="Питайся правильно"
+              className="h-12 w-auto object-contain"
+            />
           </button>
 
           <div className="hidden md:flex items-center gap-8">
@@ -615,11 +616,13 @@ export default function Index() {
       <footer className="py-10" style={{ background: "hsl(150 25% 12%)" }}>
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🌿</span>
-              <span className="font-display text-lg font-semibold" style={{ color: "hsl(42 35% 88%)" }}>
-                Питайся правильно
-              </span>
+            <div className="flex items-center">
+              <img
+                src="https://cdn.poehali.dev/projects/44b8fa57-6fcc-4d74-9b5b-10922da375f8/bucket/711c8472-4015-4ad1-80ea-8212d61a59bc.png"
+                alt="Питайся правильно"
+                className="h-10 w-auto object-contain brightness-90"
+                style={{ filter: "brightness(0.85) sepia(0.2)" }}
+              />
             </div>
             <div className="flex flex-wrap justify-center gap-6">
               {navItems.map((item) => (
