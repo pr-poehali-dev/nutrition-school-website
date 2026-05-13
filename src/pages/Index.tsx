@@ -143,7 +143,8 @@ export default function Index() {
             <img
               src="https://cdn.poehali.dev/projects/44b8fa57-6fcc-4d74-9b5b-10922da375f8/bucket/711c8472-4015-4ad1-80ea-8212d61a59bc.png"
               alt="Питайся правильно"
-              className="h-12 w-auto object-contain"
+              className="h-16 w-auto object-contain"
+              style={{ mixBlendMode: "multiply" }}
             />
           </button>
 
@@ -620,8 +621,8 @@ export default function Index() {
               <img
                 src="https://cdn.poehali.dev/projects/44b8fa57-6fcc-4d74-9b5b-10922da375f8/bucket/711c8472-4015-4ad1-80ea-8212d61a59bc.png"
                 alt="Питайся правильно"
-                className="h-10 w-auto object-contain brightness-90"
-                style={{ filter: "brightness(0.85) sepia(0.2)" }}
+                className="h-14 w-auto object-contain"
+                style={{ mixBlendMode: "screen", filter: "brightness(1.8)" }}
               />
             </div>
             <div className="flex flex-wrap justify-center gap-6">
