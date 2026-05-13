@@ -570,9 +570,9 @@ export default function Index() {
 
             <div className="section-fade flex flex-col gap-5">
               {[
-                { icon: "Mail", title: "Email", value: "info@pitajsya-pravilno.ru", sub: "Ответим в течение 24 часов" },
-                { icon: "Phone", title: "Телефон", value: "+7 (800) 123-45-67", sub: "Пн–Пт с 9:00 до 18:00" },
-                { icon: "MessageCircle", title: "Telegram", value: "@pitajsya_pravilno", sub: "Быстрый ответ в мессенджере" },
+                { icon: "Mail", title: "Email", value: "Milka_mimi1@mail.ru", sub: "Ответим в течение 24 часов" },
+                { icon: "Phone", title: "Телефон", value: "+7 (966) 063-64-00", sub: "Пн–Пт с 9:00 до 18:00" },
+                { icon: "MessageCircle", title: "Telegram", value: "@Milka_mimi1", sub: "Быстрый ответ в мессенджере" },
               ].map((c) => (
                 <div
                   key={c.title}
